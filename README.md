@@ -32,7 +32,7 @@ mongo shell - an interactive shell for using MongoDB. Here you can view your dat
 document - a data object with different attributes. A document always has an id field
 
 ```bash
-    {"name": "Tim", "occupation": "enchanter", "salary": 600}
+    {"_id" : ObjectId("123456789"), "name": "Tim", "occupation": "enchanter", "salary": 600}
 
 ```
 
